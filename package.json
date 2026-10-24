@@ -1,0 +1,1 @@
+{ "name": "link-check", "version": "1.0.0", "description": "Détecte les liens morts (fichiers locaux et URL) dans les fichiers Markdown.", "license": "MIT", "bin": { "link-check": "link-check.js" }, "engines": { "node": ">=18" } }
