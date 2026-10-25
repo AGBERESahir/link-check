@@ -1,1 +1,13 @@
-{ "name": "link-check", "version": "1.0.0", "description": "Détecte les liens morts (fichiers locaux et URL) dans les fichiers Markdown.", "license": "MIT", "bin": { "link-check": "link-check.js" }, "engines": { "node": ">=18" } }
+{
+  "name": "link-check",
+  "version": "1.1.0",
+  "description": "Détecte les liens morts (fichiers, ancres et URL) dans les fichiers Markdown.",
+  "license": "MIT",
+  "bin": { "link-check": "link-check.js" },
+  "scripts": { "test": "node --test", "check": "node link-check.js --offline ." },
+  "files": ["link-check.js"],
+  "keywords": ["markdown", "liens", "links", "broken-links", "documentation", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/AGBERESahir/link-check.git" },
+  "author": "Sâhir AGBERE",
+  "engines": { "node": ">=18" }
+}
